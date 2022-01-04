@@ -161,25 +161,7 @@ class App:
         GButton_693.place(x=500,y=310,width=70,height=25)
         GButton_693["command"] = self.GButton_693_command
 
-        GButton_24=tk.Button(root)
-        GButton_24["bg"] = "#efefef"
-        ft = tkFont.Font(family='Times',size=10)
-        GButton_24["font"] = ft
-        GButton_24["fg"] = "#000000"
-        GButton_24["justify"] = "center"
-        GButton_24["text"] = "Button"
-        GButton_24.place(x=260,y=130,width=70,height=25)
-        GButton_24["command"] = self.GButton_24_command
 
-        GButton_257=tk.Button(root)
-        GButton_257["bg"] = "#efefef"
-        ft = tkFont.Font(family='Times',size=10)
-        GButton_257["font"] = ft
-        GButton_257["fg"] = "#000000"
-        GButton_257["justify"] = "center"
-        GButton_257["text"] = "Button"
-        GButton_257.place(x=260,y=310,width=70,height=25)
-        GButton_257["command"] = self.GButton_257_command
 
     def GButton_571_command(self):
         root=tk.Tk()
@@ -271,12 +253,7 @@ class App:
         root.mainloop()
 
 
-    def GButton_24_command(self):
-        print("command")
 
-
-    def GButton_257_command(self):
-        print("command")
 
 if __name__ == "__main__":
     root = tk.Tk()

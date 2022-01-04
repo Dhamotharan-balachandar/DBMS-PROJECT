@@ -2,6 +2,7 @@ import tkinter as tk
 import tkinter.font as tkFont
 from update1 import App as a
 from SELECT1 import App as g
+from POINTSTABLE import table as z
 import cx_Oracle
 class App:
     def __init__(self, root):
@@ -66,7 +67,9 @@ class App:
         root.mainloop()
 
     def GButton_806_command(self):
-        print("3")
+        root = tk.Tk()
+        app = z(root)
+        root.mainloop()
 
 if __name__ == "__main__":
     root = tk.Tk()

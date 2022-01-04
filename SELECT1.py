@@ -26,7 +26,7 @@ class App:
         GButton_763["font"] = ft
         GButton_763["fg"] = "#009688"
         GButton_763["justify"] = "center"
-        GButton_763["text"] = "mi"
+        GButton_763["text"] = "MI"
         GButton_763.place(x=250,y=400,width=70,height=25)
         GButton_763["command"] = self.GButton_763_command
 
@@ -37,7 +37,7 @@ class App:
         GButton_929["font"] = ft
         GButton_929["fg"] = "#fad400"
         GButton_929["justify"] = "center"
-        GButton_929["text"] = "csk"
+        GButton_929["text"] = "CSK"
         GButton_929.place(x=250,y=160,width=70,height=25)
         GButton_929["command"] = self.GButton_929_command
 
@@ -47,7 +47,7 @@ class App:
         GButton_105["font"] = ft
         GButton_105["fg"] = "#cc0000"
         GButton_105["justify"] = "center"
-        GButton_105["text"] = "rcb"
+        GButton_105["text"] = "RCB"
         GButton_105.place(x=250,y=200,width=70,height=25)
         GButton_105["command"] = self.GButton_105_command
 
@@ -57,7 +57,7 @@ class App:
         GButton_428["font"] = ft
         GButton_428["fg"] = "#1960ed"
         GButton_428["justify"] = "center"
-        GButton_428["text"] = "rr"
+        GButton_428["text"] = "RR"
         GButton_428.place(x=250,y=240,width=70,height=25)
         GButton_428["command"] = self.GButton_428_command
 
@@ -67,7 +67,7 @@ class App:
         GButton_287["font"] = ft
         GButton_287["fg"] = "#c71585"
         GButton_287["justify"] = "center"
-        GButton_287["text"] = "kkr"
+        GButton_287["text"] = "KKR"
         GButton_287.place(x=250,y=120,width=70,height=25)
         GButton_287["command"] = self.GButton_287_command
 
@@ -77,7 +77,7 @@ class App:
         GButton_470["font"] = ft
         GButton_470["fg"] = "#fb9714"
         GButton_470["justify"] = "center"
-        GButton_470["text"] = "srh"
+        GButton_470["text"] = "SRH"
         GButton_470.place(x=250,y=320,width=70,height=25)
         GButton_470["command"] = self.GButton_470_command
 
@@ -87,7 +87,7 @@ class App:
         GButton_908["font"] = ft
         GButton_908["fg"] = "#3119cf"
         GButton_908["justify"] = "center"
-        GButton_908["text"] = "dc"
+        GButton_908["text"] = "DC"
         GButton_908.place(x=250,y=280,width=70,height=25)
         GButton_908["command"] = self.GButton_908_command
 
@@ -97,7 +97,7 @@ class App:
         GButton_192["font"] = ft
         GButton_192["fg"] = "#c13535"
         GButton_192["justify"] = "center"
-        GButton_192["text"] = "pbks"
+        GButton_192["text"] = "PBKS"
         GButton_192.place(x=250,y=360,width=70,height=25)
         GButton_192["command"] = self.GButton_192_command
 

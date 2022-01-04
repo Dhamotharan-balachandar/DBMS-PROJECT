@@ -5,6 +5,7 @@ import tkinter.font as tkFont
 class App:
     def __init__(self, root, b):
         self.b = b
+        self.v=[]
         #setting title
         root.title("undefined")
         root.configure(background = 'black')
@@ -392,7 +393,7 @@ class App:
         num5 = int(self.GLineEdit_326.get())
         num6 = int(self.GLineEdit_112.get())
         num7 = int(self.GLineEdit_497.get())
-        num8 = int(self.GLineEdit_898.get()
+        num8 = int(self.GLineEdit_898.get())
         num9 = int(self.GLineEdit_150.get())
         num10 = int(self.GLineEdit_86.get())
         num11 = int(self.GLineEdit_44.get())
@@ -407,14 +408,13 @@ class App:
         num20 = int(self.GLineEdit_364.get())
         num21 = int(self.GLineEdit_628.get())
         num22 = int(self.GLineEdit_402.get())
-        a=[num1]
-        print(a)
+        self.v=[num1,num2,num3 ,num4 ,num5 ,num6 ,num7 ,num8,num9,num10 ,num11 ,num12 ,num13 ,num14 ,num15 ,num16 ,num17 ,num18 ,num19 ,num20 ,num21 ,num22]
         root = tk.Tk()
-        app = f(root)
+        app = f(root,self.b,self.v)
         root.mainloop()
 
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = App(root)
+    app = App(root,b)
     root.mainloop()
